@@ -1,3 +1,18 @@
+const VideoItem = ({ title, duration, date, description }) => {
+	return (
+		<div>
+			<h3>{title}</h3>
+			<div>
+				<span>{duration}</span>
+				<span>{date}</span>
+			</div>
+			<p>{description}</p>
+		</div>
+	);
+};
+
+export default VideoItem;
+/*
 const VideoItem = props => {
 	return (
 		<div>
@@ -10,3 +25,4 @@ const VideoItem = props => {
 };
 
 export default VideoItem;
+*/
