@@ -1,4 +1,5 @@
 import styles from './VideoItem.module.css';
+import View from './View';
 const VideoItem = ({ title, duration, date, description }) => {
 	return (
 		<div className={styles.container}>
@@ -8,6 +9,7 @@ const VideoItem = ({ title, duration, date, description }) => {
 				<span>{date}</span>
 			</div>
 			<p>{description}</p>
+			<View />
 		</div>
 	);
 };
