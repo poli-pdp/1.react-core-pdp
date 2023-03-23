@@ -1,6 +1,7 @@
+import styles from './VideoItem.module.css';
 const VideoItem = ({ title, duration, date, description }) => {
 	return (
-		<div>
+		<div className={styles.container}>
 			<h3>{title}</h3>
 			<div>
 				<span>{duration}</span>
