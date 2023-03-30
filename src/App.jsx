@@ -1,6 +1,7 @@
 import VideoItem from './components/VideoItem';
 import VideoList from './components/VideoList';
 import styles from './App.module.css';
+import FormControlado from './components/FormControlado';
 const App = () => {
 	return (
 		<div className={styles.container}>
@@ -27,6 +28,9 @@ const App = () => {
 				/>
 			</VideoList>
 			<VideoList title='Pdte' />
+			<br />
+			<FormControlado />
+			<br />
 		</div>
 	);
 };
